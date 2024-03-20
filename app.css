@@ -103,7 +103,8 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding-left: 150px;
 
 }
 
@@ -121,5 +122,6 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+  padding-right: 150px;
   }
